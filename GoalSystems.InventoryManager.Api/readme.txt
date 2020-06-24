@@ -1,5 +1,3 @@
-﻿Adjunto la prueba, aunque no se indicaba, lo he desarrollado en .NET Core.
-
 Nada más abrir la solución, se puede ejecutar el API REST, que abrirá por defecto la url https://localhost:44369/api/Inventory que se corresponde con el método GET que retorna todos los elementos del inventario.
 El API REST ha sido securizado con seguridad básica, las credenciales de acceso son:
 User: goalsystems
@@ -44,12 +42,10 @@ Los parámetros de los métodos públicos son siempre validados, y todas las cla
 
 Los métodos del API REST retornan siempre JSON, y los 4 métodos existentes están securizados con autenticación básica mediante el uso del atributo “custom” BasicAuth.
 
-Las pruebas unitarias del API REST contienen tanto pruebas de la parte servidor del controlador como también pruebas de la capa HTTP mediante el uso del paquete Nuget “RestSharp”.
+Las pruebas unitarias del API REST contienen tanto pruebas de la parte servidor del controlador como también pruebas de la capa HTTP mediante el uso del paquete Nuget “RestSharp”, es posible que estas pruebas fallen si antes no se levata el API REST.
 El resto de proyectos de pruebas testea cada una de las capas arquitectónicas.
 En total se disponen de 19 pruebas unitarias.
 
 Se ha implementado también un manejador de errores no controlados mediante el uso del Midlleware de Net Core.
 
 El servicio de dominio del inventario expone dos eventos que son disparados cada vez que un elemento es eliminado o está caducado, cualquier llamante puede suscribirse a dichos eventos para realizar las operaciones que estime necesarias. Esos eventos son comprobados cada vez que se accede al elemento en el repositorio, aunque lo ideal sería implementar una tarea que se ejecutara en background y que cada cierto tiempo realizara la comprobación (no implementado).
-
-No he implementado la parte visual, puesto que no conozco el framework MaterializeCss.
