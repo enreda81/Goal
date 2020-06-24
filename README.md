@@ -42,7 +42,7 @@ Los parámetros de los métodos públicos son siempre validados, y todas las cla
 
 Los métodos del API REST retornan siempre JSON, y los 4 métodos existentes están securizados con autenticación básica mediante el uso del atributo “custom” BasicAuth.
 
-Las pruebas unitarias del API REST contienen tanto pruebas de la parte servidor del controlador como también pruebas de la capa HTTP mediante el uso del paquete Nuget “RestSharp”.
+Las pruebas unitarias del API REST contienen tanto pruebas de la parte servidor del controlador como también pruebas de la capa HTTP mediante el uso del paquete Nuget “RestSharp”, es posible que estas pruebas fallen si antes no se leventa el API REST.
 El resto de proyectos de pruebas testea cada una de las capas arquitectónicas.
 En total se disponen de 19 pruebas unitarias.
 
