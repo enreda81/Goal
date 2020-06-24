@@ -49,5 +49,3 @@ En total se disponen de 19 pruebas unitarias.
 Se ha implementado también un manejador de errores no controlados mediante el uso del Midlleware de Net Core.
 
 El servicio de dominio del inventario expone dos eventos que son disparados cada vez que un elemento es eliminado o está caducado, cualquier llamante puede suscribirse a dichos eventos para realizar las operaciones que estime necesarias. Esos eventos son comprobados cada vez que se accede al elemento en el repositorio, aunque lo ideal sería implementar una tarea que se ejecutara en background y que cada cierto tiempo realizara la comprobación (no implementado).
-
-No he implementado la parte visual, puesto que no conozco el framework MaterializeCss.
