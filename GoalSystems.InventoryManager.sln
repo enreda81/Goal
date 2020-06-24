@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1022
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoalSystems.InventoryManager.Domain.Entities", "GoalSystems.InventoryManager.Domain.Entities\GoalSystems.InventoryManager.Domain.Entities.csproj", "{D769BDE2-C66F-4944-99B8-8B5CBDE30EA2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoalSystems.InventoryManager.Domain.Services", "GoalSystems.InventoryManager.Domain.Services\GoalSystems.InventoryManager.Domain.Services.csproj", "{34868350-2B74-41C1-A719-0840CDD9E275}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoalSystems.InventoryManager.Infrastructure", "GoalSystems.InventoryManager.Infrastructure\GoalSystems.InventoryManager.Infrastructure.csproj", "{475DD32A-73BD-4B5B-BA00-6CF9540C1501}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoalSystems.InventoryManager.Infrastructure.CrossCutting", "GoalSystems.InventoryManager.Infrastructure.CrossCutting\GoalSystems.InventoryManager.Infrastructure.CrossCutting.csproj", "{5AA7C93F-65C2-4F54-8BFA-905D2583C426}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoalSystems.InventoryManager.Infrastructure.Test", "GoalSystems.InventoryManager.Infrastructure.Test\GoalSystems.InventoryManager.Infrastructure.Test.csproj", "{3572889F-C6C4-4C9F-8544-76F033BA407D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoalSystems.InventoryManager.Domain.Services.Test", "GoalSystems.InventoryManager.Domain.Services.Test\GoalSystems.InventoryManager.Domain.Services.Test.csproj", "{625F2696-E9C4-4141-9381-69661794EECD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoalSystems.InventoryManager.Api.Test", "GoalSystems.InventoryManager.Api.Test\GoalSystems.InventoryManager.Api.Test.csproj", "{3A823B84-6C5D-4F57-BDDC-00FEB263D1B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoalSystems.InventoryManager.Api", "GoalSystems.InventoryManager.Api\GoalSystems.InventoryManager.Api.csproj", "{F82E7D2B-F0E0-43A9-907F-728558F1CEDA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D769BDE2-C66F-4944-99B8-8B5CBDE30EA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D769BDE2-C66F-4944-99B8-8B5CBDE30EA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D769BDE2-C66F-4944-99B8-8B5CBDE30EA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D769BDE2-C66F-4944-99B8-8B5CBDE30EA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34868350-2B74-41C1-A719-0840CDD9E275}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34868350-2B74-41C1-A719-0840CDD9E275}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34868350-2B74-41C1-A719-0840CDD9E275}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34868350-2B74-41C1-A719-0840CDD9E275}.Release|Any CPU.Build.0 = Release|Any CPU
+		{475DD32A-73BD-4B5B-BA00-6CF9540C1501}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{475DD32A-73BD-4B5B-BA00-6CF9540C1501}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{475DD32A-73BD-4B5B-BA00-6CF9540C1501}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{475DD32A-73BD-4B5B-BA00-6CF9540C1501}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AA7C93F-65C2-4F54-8BFA-905D2583C426}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AA7C93F-65C2-4F54-8BFA-905D2583C426}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AA7C93F-65C2-4F54-8BFA-905D2583C426}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AA7C93F-65C2-4F54-8BFA-905D2583C426}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3572889F-C6C4-4C9F-8544-76F033BA407D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3572889F-C6C4-4C9F-8544-76F033BA407D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3572889F-C6C4-4C9F-8544-76F033BA407D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3572889F-C6C4-4C9F-8544-76F033BA407D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{625F2696-E9C4-4141-9381-69661794EECD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{625F2696-E9C4-4141-9381-69661794EECD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{625F2696-E9C4-4141-9381-69661794EECD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{625F2696-E9C4-4141-9381-69661794EECD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A823B84-6C5D-4F57-BDDC-00FEB263D1B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A823B84-6C5D-4F57-BDDC-00FEB263D1B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A823B84-6C5D-4F57-BDDC-00FEB263D1B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A823B84-6C5D-4F57-BDDC-00FEB263D1B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F82E7D2B-F0E0-43A9-907F-728558F1CEDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F82E7D2B-F0E0-43A9-907F-728558F1CEDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F82E7D2B-F0E0-43A9-907F-728558F1CEDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F82E7D2B-F0E0-43A9-907F-728558F1CEDA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4712F961-880C-4F2A-9A17-F6339C6DC279}
+	EndGlobalSection
+EndGlobal

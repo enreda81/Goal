@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GoalSystems.InventoryManager.Domain.Entities\GoalSystems.InventoryManager.Domain.Entities.csproj" />
+    <ProjectReference Include="..\GoalSystems.InventoryManager.Infrastructure.CrossCutting\GoalSystems.InventoryManager.Infrastructure.CrossCutting.csproj" />
+    <ProjectReference Include="..\GoalSystems.InventoryManager.Infrastructure\GoalSystems.InventoryManager.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions">
+      <HintPath>..\..\..\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.extensions.dependencyinjection.abstractions\2.1.1\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
